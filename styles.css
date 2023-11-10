@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  --hero-height: 100vh;
+}
+.hero {
+  background: url(./assets/background.png) no-repeat;
+  background-size: cover;
+  min-height: var(--hero-height);
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-woman {
+  width: 52.3rem;
+  position: absolute;
+  right: -60%;
+  bottom: 0;
+}
+
+header {
+  margin-bottom: 11.6rem;
+}
+
+.header-content {
+  display: flex;
+  width: 100%;
+  max-width: 80.2rem;
+  gap: 5.3rem;
+}
+
+.header-content a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.68px;
+  text-decoration: none;
+}
+
+.hero .container{
+  height: var(--hero-height);
+}
+.container {
+  position: relative;  
+  max-width: 80.0rem;
+  margin: 0 auto;
+
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+  width: 100%;
+  max-width: 59.5rem;
+  border-left: 3px solid #fff;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 8.6rem;
+  padding-bottom: 7.8rem;
+}
+
+.content h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.36px;
+}
+
+.content h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -2.52px;
+}
+
+.content p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: -2.24px;
+}
+
+.content button {
+  border-radius: 8px;
+  background: #466f68;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: none;
+  width: 100%;
+  max-width: 22.4rem;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.68px;
+}
